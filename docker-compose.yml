@@ -1,0 +1,19 @@
+version: "3.1"
+
+services:
+  json-db:
+    container_name: JSON_DB
+    user: root
+    build:
+      context: ./
+      dockerfile: "Dockerfile"
+    entrypoint: "./entrypoint.sh"
+    restart: always
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./:/home/appuser/app
+    tty: true
+# networks:
+#   frontend:
+#     external: true

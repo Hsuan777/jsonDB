@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name":"hazel",
+      "account": "123@gmail.com",
+      "password": "12345678",
+      "phone": "0912345678"
+    },
+    {
+      "id": 2,
+      "name":"vic",
+      "account": "123@gmail.com",
+      "password": "12345678",
+      "phone": "0912345678"
+    }
+  ],
+  "books": [
+    {
+      "id": 4321,
+      "image": "http",
+      "rate": 5,
+      "price": 100,
+      "recommend": [
+        {
+          "id": 1,
+          "name":"hazel",
+          "content": "這本書超好看的!"
+        },
+        {
+          "id": 2,
+          "name":"vic",
+          "content": "這本書讚的!"
+        }
+      ]
+    }
+  ]
+}
